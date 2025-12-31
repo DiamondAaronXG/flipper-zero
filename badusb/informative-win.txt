@@ -1,0 +1,11 @@
+REM Informative Attack Windows
+DELAY 1000
+REM Opens Windows run dialogue
+GUI r
+DELAY 500
+REM Opens Notepad
+STRING notepad
+DELAY 500
+ENTER
+DELAY 750
+STRING Please secure USB ports if leaving your device unlocked and unattended
